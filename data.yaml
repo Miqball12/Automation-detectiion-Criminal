@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['human', 'human_with_weapon', 'knife', 'pistol']
+
+roboflow:
+  workspace: iqbal-y62m2
+  project: crime-162ez-4uok3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iqbal-y62m2/crime-162ez-4uok3/dataset/1
